@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!DOCTYPE gurus [
+ <!ELEMENT gurus (guru)>
+ <!ELEMENT guru (name,gender,desig,institute, path, img1)>
+ <!ELEMENT name (#PCDATA)>
+ <!ELEMENT gender (#PCDATA)>
+ <!ELEMENT desig (#PCDATA)>
+ <!ELEMENT institute (#PCDATA)>
+ <!ELEMENT path (#PCDATA)>
+ <!ELEMENT img1 (#PCDATA)>
+ ]>
+<gurus><guru>
+		<name>Dr. M. K. Sharma</name>
+		<gender>Male</gender>
+		<desig>Associate Professor</desig>
+		<institute>Amrapali Institute</institute>
+		<path>mksharma</path>
+		<img1>mksharma.jpg</img1>
+	</guru><guru>
+		<name>Nitin Deepak Mathur</name>
+		<gender>Male</gender>
+		<desig>Asst. Professor</desig>
+		<institute>Amrapali Institute</institute>
+		<path>nitindeepak</path>
+		<img1>nitindeepak.jpg</img1>
+	</guru><guru>
+		<name>Pramod Kumar Joshi</name>
+		<gender>Male</gender>
+		<desig>Asst. Professor</desig>
+		<institute>Amrapali Institute</institute>
+		<path>pramodjoshi</path>
+		<img1>pramodjoshi.jpg</img1>
+	</guru><guru>
+		<name>Mukesh Joshi</name>
+		<gender>Male</gender>
+		<desig>Asst. Professor</desig>
+		<institute>Amrapali Institute</institute>
+		<path>mukesh</path>
+		<img1>mukesh.jpg</img1>
+	</guru><guru>
+		<name>Tushar Anthwal</name>
+		<gender>Male</gender>
+		<desig>Lecturer</desig>
+		<institute>Amrapali Institute</institute>
+		<path>tusharanthwal</path>
+		<img1>tusharanthwal.jpg</img1>
+	</guru><guru>
+		<name>Harsh V. Pant</name>
+		<gender>Male</gender>
+		<desig>Lecturer</desig>
+		<institute>Amrapali Institute</institute>
+		<path>harshvpant</path>
+		<img1>harshvpant.jpg</img1>
+	</guru><guru>
+		<name>Gunjan Mathur</name>
+		<gender>Female</gender>
+		<desig>Lecturer</desig>
+		<institute>Amrapali Institute</institute>
+		<path>gunjanmathur</path>
+		<img1>gunjanmathur.jpg</img1>
+	</guru><guru>
+		<name>Sanjana Joshi</name>
+		<gender>Female</gender>
+		<desig>Lecturer</desig>
+		<institute>Amrapali Institute</institute>
+		<path>sanjana</path>
+		<img1>sanjana.jpg</img1>
+	</guru><guru>
+		<name>Dr. Naveen Tewari</name>
+		<gender>Male</gender>
+		<desig>Asst. Professor</desig>
+		<institute>Amrapali Institute</institute>
+		<path>drnaveentewari</path>
+		<img1>naveen.jpg</img1>
+	</guru><guru>
+		<name>Mr. Prashant Rajput</name>
+		<gender>Male</gender>
+		<desig>Associate Professor</desig>
+		<institute>Amrapali Institute</institute>
+		<path>prajput</path>
+		<img1>prajput.jpg</img1>
+	</guru></gurus>
