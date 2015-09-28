@@ -129,11 +129,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                     <div class="resent-grid-img recommended-grid-img">
                                                         <a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>"><img src="members/<?PHP echo $data[5];?>" alt="" /></a>
                                                         <div class="time">
-                                                            <p><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[0];?></a></a</p>
+                                                            <p><a style="color:#000" href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[0];?></a></a</p>
                                                         </div>
                                                     </div>
                                                     <div class="resent-grid-info recommended-grid-info">
-                                                        <h5 style="float:right;"><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[2];?></a></h5>
+                                                        <h5 style="float:right;margin-top: 8px;"><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[2];?></a></h5>
                                                         <h5 style="float:right;"><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[3];?></a></h5>
                                                     </div>
 						</div>
