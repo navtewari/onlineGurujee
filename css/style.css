@@ -26,7 +26,6 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
     box-shadow: 0px 0 2px #C1C1C1 !important;
 }
 .sidebar {
-    top: 80px;
     background: #272c2e;
     border: none;
     padding: 0 20px 20px 20px;
@@ -47,8 +46,9 @@ form.navbar-form.navbar-right {
 }
 .top-search form input[type="text"] {
     position: relative;
-    padding: 6px 43px 6px 12px;
+    padding: 0px 0px 0px 0px;
     outline: none;
+    width: 400px;
     box-shadow: 0 0 0;
 }
 .top-search form input[type="text"]:focus {
@@ -130,7 +130,7 @@ form.navbar-form.navbar-right {
     outline: none;
 }
 .main {
-    padding: 5em 0 0 0;
+    padding: 0 0 0 0;
 }
 ul.nav.nav-sidebar li.active a{
     background-color: #232323 !important;

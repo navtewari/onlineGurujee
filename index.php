@@ -42,7 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //fonts -->
 </head>
   <body>
-
+<!--
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -65,7 +65,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="clearfix"> </div>
       </div>
     </nav>
-	
+-->	
         <div class="col-sm-3 col-md-2 sidebar">
 			<div class="top-navigation">
 				<div class="t-menu">MENU</div>
@@ -90,14 +90,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							});
 						</script>
 					<div class="side-bottom">
-						<div class="side-bottom-icons">
+						<!--<div class="side-bottom-icons">
 							<ul class="nav2">
 								<li><a href="#" class="facebook"> </a></li>
 								<li><a href="#" class="facebook twitter"> </a></li>
 								<li><a href="#" class="facebook chrome"> </a></li>
 								<li><a href="#" class="facebook dribbble"> </a></li>
 							</ul>
-						</div>
+						</div>-->
+                                               <!-- 
+                                                <div class="top-search">
+                                                    <form class="navbar-form navbar-right">
+                                                            <input type="text" class="form-control" placeholder="Search...">
+                                                            <input type="submit" value=" ">
+                                                    </form>
+                                                </div>
+                                                -->
 						<div class="copyright">
                                                     <p> © 2015 Online GuruJee. All rights reserved</p>
 						</div>
@@ -110,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="recommended-grids english-grid">
 						<div class="recommended-info">
 							<div class="heading">
-								<h3>Members</h3>
+								<h3>Online गुरुजी </h3>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -141,8 +149,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div class="clearfix"> </div>
 					</div>
 				</div>
-				
-				
 			</div>
 			<!-- //footer -->
 		</div>
