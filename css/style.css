@@ -33,6 +33,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 }
 a.navbar-brand h1 {
     margin: 0;
+    font-size:25px;
 }
 form.navbar-form.navbar-right {
     margin-right: 1em;
@@ -496,9 +497,11 @@ a.btn.btn-primary.btn-lg.see-button.hvr-shutter-out-horizontal {
 .time p{
   font-size: 12px;
   margin: 0;
-  color: #FFF;
+  color: #0076CC;
+  background: #f7ecb5;
   padding: .2em .5em;
   border-radius: 3px;
+  font-weight:bold;
   -webkit-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
@@ -600,7 +603,7 @@ a.btn.btn-primary.btn-lg.see-button.hvr-shutter-out-horizontal {
     line-height: 1.8em;
 }
 .recommended-grid-info a.title{
-    font-size: 14px;
+    font-size: .9em;
     line-height: 1.3em;
 }
 .recommended-grid-info h3 {
@@ -611,7 +614,7 @@ a.btn.btn-primary.btn-lg.see-button.hvr-shutter-out-horizontal {
 .recommended-grid-info h5 {
   margin: 0;
   overflow: hidden;
-  height: 34px;
+  height: 20px;
 }
 .resent-grid-info a.title-info{
     font-size: 15px;
@@ -665,7 +668,9 @@ a.btn.btn-primary.btn-lg.see-button.hvr-shutter-out-horizontal {
 }
 .recommended-grid-info {
     box-shadow: 0px 0 2px #C1C1C1 !important;
-    background: none;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    height:60px;
 }
 .heading{
 	float:left;

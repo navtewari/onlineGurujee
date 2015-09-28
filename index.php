@@ -52,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><h1>Online Guru Jee</h1></a>
+          <a class="navbar-brand" href="index.php"><h1>Online Guru Jee</h1></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 			<div class="top-search">
@@ -125,15 +125,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                                             }    
                                                         }
                                                 ?>
-						<div class="col-md-2 resent-grid recommended-grid sports-recommended-grid">
-							<div class="resent-grid-img recommended-grid-img">
-                                                            <a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>"><img src="members/<?PHP echo $data[5];?>" alt="" /></a>
-							</div>
-							<div class="resent-grid-info recommended-grid-info">
-								<h5><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[0];?></a></h5>
-                                                                <h5><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[2];?></a></h5>
-                                                                <h5><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[3];?></a></h5>
-							</div>
+						<div class="col-md-2 resent-grid recommended-grid">
+                                                    <div class="resent-grid-img recommended-grid-img">
+                                                        <a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>"><img src="members/<?PHP echo $data[5];?>" alt="" /></a>
+                                                        <div class="time">
+                                                            <p><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[0];?></a></a</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="resent-grid-info recommended-grid-info">
+                                                        <h5 style="float:right;"><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[2];?></a></h5>
+                                                        <h5 style="float:right;"><a href="http://www.onlinegurujee.in/<?PHP echo $data[4];?>" class="title"><?PHP echo $data[3];?></a></h5>
+                                                    </div>
 						</div>
                                                 <?php } ?>
 						<div class="clearfix"> </div>
