@@ -98,14 +98,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<li><a href="#" class="facebook dribbble"> </a></li>
 							</ul>
 						</div>-->
-                                               <!-- 
-                                                <div class="top-search">
-                                                    <form class="navbar-form navbar-right">
-                                                            <input type="text" class="form-control" placeholder="Search...">
+                                               
+                                                <div class="side-bottom-icons">
+                                                    <form class="navbar-form navbar-left" method="get" action="http://www.google.com/search" target="_blank">
+                                                            <input type="text" class="form-control" placeholder="Search..." name="q">
+                                                            <input type="hidden"  name="sitesearch" value="onlinegurujee.in"/>
                                                             <input type="submit" value=" ">
                                                     </form>
                                                 </div>
-                                                -->
+                                               <div class="clearfix"> </div>
 						<div class="copyright">
                                                     <p> © 2015 Online GuruJee. All rights reserved</p>
 						</div>

@@ -66,6 +66,21 @@ form.navbar-form.navbar-right {
     top: 9px;
     right: 26px;
 }
+.side-bottom-icons form input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+    border: 1px solid #ccc;
+}
+.side-bottom-icons form input[type="submit"] {
+    background: url(../images/9.png) no-repeat 0px 0px !important;
+    width: 18px !important;
+    height: 18px !important;
+    border: none !important;
+    position: absolute !important;
+    outline: none !important;
+    top: 15px;
+    right: 10px;
+}
 .header-top-right {
   float: right;
 }
@@ -1750,6 +1765,7 @@ span.glyphicon.glyphicon-user {
 }
 .side-bottom-icons {
     margin-bottom: 2em;
+    position: relative;
 }
 .side-bottom-icons ul{
 	padding:0;
