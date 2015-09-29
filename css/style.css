@@ -66,6 +66,24 @@ form.navbar-form.navbar-right {
     top: 9px;
     right: 26px;
 }
+
+.quote{
+    padding:10px;
+    height:300px;
+}
+
+.quote p{
+    color:#d58512;
+    font-size: 15px;
+    line-height: 20px;
+}
+.side-bottom-icons form input[type="text"] {
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    outline: none;
+    width:90%;
+    box-shadow: 0 0 0;
+}
 .side-bottom-icons form input[type="text"]:focus {
     outline: none;
     box-shadow: 0 0 0;
@@ -78,8 +96,8 @@ form.navbar-form.navbar-right {
     border: none !important;
     position: absolute !important;
     outline: none !important;
-    top: 15px;
-    right: 10px;
+    top: 10px;
+    right:20px;
 }
 .header-top-right {
   float: right;
@@ -2782,4 +2800,5 @@ background: url(../images/social.png) no-repeat 0px 0px;
 	.footer-bottom ul li a.f-history {
 		padding: .52em 1em .52em 3em;
 	}
+        
 }

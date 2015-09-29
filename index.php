@@ -15,7 +15,7 @@ $_SESSION['img']="<img src=image/contactStrip.jpg width=50px height=350px />";
 				//echo "<br>" . $subItem->nodeValue;
 			}
 		}
-		//echo "<br />------------<br />";
+		//echo "<br/>------------<br />";
 		}
 	}
 ?>
@@ -42,30 +42,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //fonts -->
 </head>
   <body>
-<!--
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.php"><h1>Online Guru Jee</h1></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-			<div class="top-search">
-				<form class="navbar-form navbar-right">
-					<input type="text" class="form-control" placeholder="Search...">
-					<input type="submit" value=" ">
-				</form>
-			</div>
-        </div>
-		<div class="clearfix"> </div>
-      </div>
-    </nav>
--->	
+
         <div class="col-sm-3 col-md-2 sidebar">
 			<div class="top-navigation">
 				<div class="t-menu">MENU</div>
@@ -90,6 +67,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							});
 						</script>
 					<div class="side-bottom">
+                                            <!--<div class="quote">
+                                                <p>!! Do not wait !! the time will never be "just right".
+Start where you stand, and work with whatever tools you may have at your command, and better tools will be found as you go along.</p>
+                                            </div>-->
 						<!--<div class="side-bottom-icons">
 							<ul class="nav2">
 								<li><a href="#" class="facebook"> </a></li>
@@ -99,13 +80,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</ul>
 						</div>-->
                                                
-                                                <div class="side-bottom-icons">
-                                                    <form class="navbar-form navbar-left" method="get" action="http://www.google.com/search" target="_blank">
-                                                            <input type="text" class="form-control" placeholder="Search..." name="q">
-                                                            <input type="hidden"  name="sitesearch" value="onlinegurujee.in"/>
-                                                            <input type="submit" value=" ">
-                                                    </form>
-                                                </div>
+                                            <div class="side-bottom-icons" align="center">
+                                                <form method="get" action="http://www.google.com/search" target="_blank">
+                                                        <input type="text" class="form-control" placeholder="Search..." name="q">
+                                                        <input type="hidden"  name="sitesearch" value="onlinegurujee.in"/>
+                                                        <input type="submit" value=" ">
+                                                </form>
+                                            </div>
                                                <div class="clearfix"> </div>
 						<div class="copyright">
                                                     <p> © 2015 Online GuruJee. All rights reserved</p>
@@ -119,7 +100,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="recommended-grids english-grid">
 						<div class="recommended-info">
 							<div class="heading">
-								<h3>Online गुरुजी </h3>
+                                                            <h3 style="color:#0076CC;font-size:25px;"><span style="color:#DF2229;font-family: cursive; font-size: 20px;">Online</span> गुरुजी </h3>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
